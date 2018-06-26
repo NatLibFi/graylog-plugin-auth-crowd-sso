@@ -1,0 +1,27 @@
+{
+  "name": "CrowdAuthPlugin",
+  "version": "1.0.0",
+  "description": "Crowd SSO authentication plugin for Graylog",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NatLibFi/graylog-plugin-auth-crowd-sso.git"
+  },
+  "scripts": {
+    "build": "webpack --bail -p"
+  },
+  "keywords": [
+    "graylog",
+    "crowd",
+    "atlassian",
+    "sso"
+  ],
+  "author": {
+    "name": "The National Library of Finland"
+  },
+  "license": "GPL-3.0+",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "graylog-web-plugin": "file:../graylog2-server/graylog2-web-interface/packages/graylog-web-plugin"
+  }
+}
